@@ -6,7 +6,7 @@ import {
   BCollapse,
   BNavbarNav,
   BNavItem,
-} from "bootstrap-vue-next";
+} from 'bootstrap-vue-next'
 </script>
 
 <template>
@@ -25,23 +25,10 @@ import {
 
     <BCollapse id="nav-collapse" is-nav>
       <BNavbarNav class="ms-auto gap-3">
-        <BNavItem to="/" router exact active-class="active">Home</BNavItem>
-        <BNavItem to="/about-me" router exact active-class="active"
-          >Über Mich</BNavItem
-        >
-        <BNavItem to="/lebenslauf" router active-class="active"
-          >Lebenslauf</BNavItem
-        >
-        <BNavItem to="/projekte" router active-class="active"
-          >Projekte</BNavItem
-        >
-        <BNavItem to="/kontakt" router active-class="active">Kontakt</BNavItem>
-        <!-- <BNavItem to="/impressum" router active-class="active"
-          >Impressum</BNavItem
-        >
-        <BNavItem to="/datenschutz" router active-class="active"
-          >Datenschutz</BNavItem
-        > -->
+        <BNavItem to="/" router exact-active-class="active">Home</BNavItem>
+        <BNavItem to="/ueber_mich" router exact-active-class="active">Über mich</BNavItem>
+        <BNavItem to="/preise" router exact-active-class="active">Preise</BNavItem>
+        <BNavItem to="/kontakt" router exact-active-class="active">Kontakt</BNavItem>
       </BNavbarNav>
     </BCollapse>
   </BNavbar>
@@ -72,7 +59,7 @@ import {
 }
 
 :deep(.nav-link::after) {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -4px;

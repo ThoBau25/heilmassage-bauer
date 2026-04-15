@@ -1,5 +1,5 @@
 <script setup>
-import { BContainer, BCardTitle, BCardText, BRow, BCol } from 'bootstrap-vue-next';
+import { BContainer, BRow, BCol } from 'bootstrap-vue-next';
 import { RouterLink } from 'vue-router';
 </script>
 
@@ -26,8 +26,7 @@ import { RouterLink } from 'vue-router';
             </BCol>
             <BCol cols="12" md="4" class="text-center text-md-start mb-1">
               <h5 class="header mb-4">Service</h5>
-              <RouterLink class="imprint-link d-block mb-3" :to="{ name: 'impressum' }">Impressum</RouterLink>
-              <RouterLink class="imprint-link d-block mb-3" :to="{ name: 'datenschutz' }">Datenschutz</RouterLink>
+              
             </BCol>
           </BRow>
         </BContainer>
