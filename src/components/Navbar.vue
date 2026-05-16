@@ -13,10 +13,10 @@ import {
   <BNavbar variant="faded" type="light" toggleable="lg" class="custom-navbar">
     <BNavbarBrand href="/">
       <img
-        src="../assets/logo/TB-Logo.png"
+        src="../assets/logo/Bauer-Heilmassage-Logo.png"
         alt="Logo"
-        width="60"
-        height="60"
+        width="120"
+        height="120"
         class="d-inline-block align-top"
       />
     </BNavbarBrand>

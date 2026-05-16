@@ -28,6 +28,16 @@ const router = createRouter({
           path: 'ueber_mich',
           name: 'Über mich',
           component: () => import('../views/AboutView.vue')
+        },
+        {
+          path: 'impressum',
+          name: 'Impressum',
+          component: () => import('../views/ImpressumView.vue')
+        },
+        {
+          path: 'datenschutz',
+          name: 'Datenschutz',
+          component: () => import('../views/DataProtectionView.vue')
         }
       ]
     }
